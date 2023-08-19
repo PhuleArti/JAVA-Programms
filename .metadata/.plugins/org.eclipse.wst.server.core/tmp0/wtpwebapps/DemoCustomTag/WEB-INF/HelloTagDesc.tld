@@ -1,0 +1,17 @@
+<taglib>
+	<tlib-version>1.1</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	
+	<tag>
+		<name> hello</name>
+		<tag-class>com.demo.custom.HelloTag</tag-class>
+   </tag>
+	<tag> 
+		<name> cube </name>
+		<tag-class> com.demo.custom.CubeIt</tag-class>
+	<attribute>
+		<name> number</name>
+		<recquired>true</recquired>
+	</attribute>
+	</tag>
+</taglib>
